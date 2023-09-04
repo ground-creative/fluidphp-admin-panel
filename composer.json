@@ -1,0 +1,51 @@
+{
+	"name": "fluidphp/fluidphp",	
+	"type": "framework",
+	"description": "A php framework",
+	  "keywords": [
+	    "php developer tools",
+	    "php framework",
+	    "application programming",
+	    "help php",
+	    "debug php",
+	    "php tools",
+	    "php toolcase",
+	    "easy php"
+	],
+	"homepage": "http://phptoolcase.com",
+	"license": "GPL-2.0-or-later",
+	"version": "v2.1.0-stable",
+	"authors": 
+	[
+		{
+		      "name": "Carlo Pietrobattista",
+		      "email": "carlo@ground-creative.com",
+		      "role": "Developer"
+		}
+	],
+	"require": 
+	{
+		"php": ">=5.4.0" ,
+		"fluidphp/user-auth-api-helper": "^1.0",
+		"fluidphp/framework": "^2.0",
+		"fluidphp/website-helper": "^1.0"
+	},
+	"extra": 
+	{
+		"installer-paths": 
+		{
+			"./vendor/fluidphp/helpers/Website": ["fluidphp/website-helper"] ,
+			"./vendor/fluidphp/helpers/Translator": ["fluidphp/translator-helper"] ,
+			"./vendor/fluidphp/helpers/ViewModel": ["fluidphp/viewmodel-helper"],
+			"./vendor/fluidphp/helpers/Validator": ["fluidphp/validator-helper"],
+			"./vendor/fluidphp/helpers/Logger": ["fluidphp/logger-helper"],
+			"./vendor/fluidphp/helpers/EmailManager": ["fluidphp/emailmanager-helper"],
+			"./vendor/fluidphp/helpers/UserAuthApi": ["fluidphp/user-auth-api-helper"]
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"mnsami/composer-custom-directory-installer": true
+		}
+	}
+}

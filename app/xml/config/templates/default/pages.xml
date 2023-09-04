@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+	
+	<elements>
+		<element name="_brand_logo" _is_tpl="true">templates/default/elements/_tpl_el.brand-logo</element>
+		<element name="_top_bar" _is_tpl="true">templates/default/elements/_tpl_el.top-bar</element>
+		<element name="_left_menu" _is_tpl="true">templates/default/elements/_tpl_el.left-menu</element>
+		<element name="_footer" _is_tpl="true">templates/default/elements/_tpl_el.footer</element>
+		<element name="_header" _is_tpl="true">templates/default/_header</element>
+	</elements>
+	
+	<!-- Pages -->
+	<page id="index" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_skeleton</view>
+			<view child="_content">vi.home</view>
+		</views>
+		<resources>
+			<block>globals</block>
+		</resources>
+	</page>
+	
+	<page id="login" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_login</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>login</block>
+		</resources>
+	</page>
+	
+	<page id="register" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_register</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>register</block>
+		</resources>
+	</page>
+		
+	<page id="forgot-password" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_forgot-password</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>forgot-password</block>
+		</resources>
+	</page>
+	
+	<page id="check-email" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_check-email</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>check-email</block>
+		</resources>
+	</page>
+		
+	<page id="reset-password" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_reset-password</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>reset-password</block>
+		</resources>
+	</page>
+	
+	<page id="verify-account" callback="_Loader::verifyAccount" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_verify-account</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>check-email</block>
+		</resources>
+	</page>
+	
+	<page id="404" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_404</view>
+		</views>
+		<resources>
+			<block>globals</block>
+			<block>404</block>
+		</resources>
+	</page>
+	
+	<page id="privacy-policy" _is_tpl="true">
+		<views>
+			<view>templates/default/_tpl_privacy-policy</view>
+		</views>
+		<resources>
+			<block>globals</block>
+		</resources>
+	</page>
+
+</package>

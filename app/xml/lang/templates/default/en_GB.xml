@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+
+	<translation key="suffix">en_GB</translation>
+	<translation key="prefix">en</translation>
+	<translation key="_tpl_register_page_title">register</translation>
+	<translation key="_tpl_404_page_title">404</translation>
+	<translation key="_tpl_login_page_title">login</translation>
+	<translation key="_tpl_check-email_page_title">check email</translation>
+	<translation key="_tpl_forgot-password_page_title">forgot password</translation>
+	<translation key="_tpl_verify-account_page_title">verify account</translation>
+	<translation key="_tpl_reset-password_page_title">change password</translation>
+	<translation key="_tpl_register_btn_txt">sign up</translation>
+	<translation key="_tpl_register_headline">adventure starts here</translation>
+	<translation key="_tpl_email">email</translation>
+	<translation key="_tpl_email_placeholder">enter your email</translation>
+	<translation key="_tpl_password">password</translation>
+	<translation key="_tpl_privacy_block">
+		<![CDATA[
+			I agree with the 
+			<a target="_blank" href="{__PRIVACY_POLICY__}">privacy policy & terms</a>
+		]]>
+	</translation>
+	<translation key="_tpl_generic_error_block">
+		<![CDATA[
+			<strong>Error!</strong> A problem has been occurred.
+		]]>
+	</translation>
+	<translation key="_tpl_already_have_account">Already have an account?</translation>
+	<translation key="_tpl_sign_instead">sign in instead</translation>
+	<translation key="_tpl_change_pass_headline">change your password</translation>
+	<translation key="_tpl_change_pass_text">Use this form to reset your password</translation>
+	<translation key="_tpl_new_password">new password</translation>
+	<translation key="_tpl_repeat_password">repeat password</translation>
+	<translation key="_tpl_enter_password_placeholder">enter password</translation>
+	<translation key="_tpl_change_password_btn_txt">change password</translation>
+	<translation key="_tpl_go_to_login_txt">go to login</translation>
+	<translation key="_tpl_change_password_success_txt">Your password has been changed!</translation>
+	<translation key="_tpl_login_headline">login</translation>
+	<translation key="_tpl_login_headline_1">welcome</translation>
+	<translation key="_tpl_login_txt">please sign-in to your account</translation>
+	<translation key="_tpl_remember_me">remember me</translation>
+	<translation key="_tpl_login_btn_txt">sign in</translation>	
+	<translation key="_tpl_login_new_platform_txt">new on our platform?</translation>
+	<translation key="_tpl_login_new_create_account_txt">create an account</translation>		
+	<translation key="_tpl_forgot_password_headline">forgot password</translation>	
+	<translation key="_tpl_forgot_password_txt">enter your email and we'll send you instructions to change your password</translation>		
+	<translation key="_tpl_forgot_password_btn_txt">send reset link</translation>		
+	<translation key="_tpl_forgot_password_success_txt">Email sent, please check your inbox.</translation>
+	<translation key="_tpl_check_email_headline">verify account</translation>	
+	<translation key="_tpl_check_email_txt">please check your email to activate your account</translation>
+	<translation key="_tpl_verify_account_headline">verify account</translation>
+	<translation key="_tpl_verify_account_success_txt">your account has been verified!</translation>
+	<translation key="_tpl_verify_account_already_verified_txt">this account has already been verified!</translation>
+	<translation key="_tpl_verify_account_ver_code_not_found_txt">verification code not found in database!</translation>
+	<translation key="_tpl_index_page_title">Home</translation>
+	<translation key="_tpl_404_headline">Page Not Found :(</translation>
+	<translation key="_tpl_404_headline_1">Page Not Found :(</translation>
+	<translation key="_tpl_404_txt">Oops! ? The requested URL was not found on this server.</translation>
+	<translation key="_tpl_404_btn">Back to home</translation>
+		
+</database>

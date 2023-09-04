@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+
+	<!-- Not Used -->
+
+	<lang controller="english" main="true" _is_tpl="true">
+		<prefix>en</prefix>
+		<suffix>en_GB</suffix>
+		<xml>en_GB</xml>
+		<js>en_GB</js>
+	</lang>
+	
+</package>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+	
+	<controller id="main" prefix="">
+
+		<route url="/login">
+			<page>login</page>
+			<methods>get</methods>
+			<map>login</map>
+		</route>
+
+		<route url="/register">
+			<page>register</page>
+			<methods>get</methods>
+			<map>register</map>
+		</route>
+		
+		<route url="/forgot-password">
+			<page>forgot-password</page>
+			<methods>get</methods>
+			<map>forgot_password</map>
+		</route>
+		
+		<route url="/check-email">
+			<page>check-email</page>
+			<methods>get</methods>
+			<map>check_email</map>
+		</route>
+		
+		<route url="/verify-account/{code}/{lang?}/">
+			<page>verify-account</page>
+			<methods>get</methods>
+			<map>verify_account</map>
+		</route>
+		
+		<route url="/reset-password/{code}/{lang?}/">
+			<page>reset-password</page>
+			<methods>get</methods>
+			<map>reset_password</map>
+		</route>
+		
+		<route url="/privacy-policy/">
+			<page>privacy-policy</page>
+			<methods>get</methods>
+			<map>privacy_policy</map>
+		</route>
+		
+		<filter before="_user-auth-api.check_login">
+		
+			<route url="/">
+				<page>index</page>
+				<methods>get</methods>
+				<map>index</map>
+			</route>
+		
+		</filter>
+	
+	</controller>
+
+</package>

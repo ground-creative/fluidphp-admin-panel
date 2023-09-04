@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+
+	<!-- Resources -->
+	<resources>
+		<!-- CSS -->
+		<file id="boxicons-css" _is_tpl="true">/templates/default/assets/vendor/fonts/boxicons.css</file>
+		<file id="core-css" _is_tpl="true">/templates/default/assets/vendor/css/core.css</file>	
+		<file id="theme-default-css" _is_tpl="true">/templates/default/assets/vendor/css/theme-default.css</file>		
+		<file id="demo-css" _is_tpl="true">/templates/default/assets/css/demo.css</file>
+		<file id="perfect-scrollbar-css" _is_tpl="true">/templates/default/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css</file>
+		<file id="page-auth-css" _is_tpl="true">/templates/default/assets/vendor/css/pages/page-auth.css</file>
+		<file id="overlay-loader-css" _is_tpl="true">/css/overlay-loader.css</file>
+		<file id="apex-charts-css" _is_tpl="true">/templates/default/assets/vendor/libs/apex-charts/apex-charts.css</file>
+		<file id="page-misc-css" _is_tpl="true">/templates/default/assets/vendor/css/pages/page-misc.css</file>
+		<!-- JS -->
+		<file id="jquery-js" _is_tpl="true">/templates/default/assets/vendor/libs/jquery/jquery.js</file>
+		<file id="popper-js" _is_tpl="true">/templates/default/assets/vendor/libs/popper/popper.js"</file>
+		<file id="bootstrap-js" _is_tpl="true">/templates/default/assets/vendor/js/bootstrap.js</file>
+		<file id="perfect-scroolbar-js" _is_tpl="true">/templates/default/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js</file>
+		<file id="menu-js" _is_tpl="true">/templates/default/assets/vendor/js/menu.js</file>	
+		<file id="main-js" _is_tpl="true">/templates/default/assets/js/main.js</file>	
+		<file id="apex-charts-js" _is_tpl="true">/templates/default/assets/vendor/libs/apex-charts/apexcharts.js</file>	
+		<file id="dashboards-analytics-js" _is_tpl="true">/templates/default/assets/js/dashboards-analytics.js</file>	
+		<!-- MVC -->
+		<file id="aw-js" rand="true" _is_tpl="true">/js/mvc/aw.js</file>
+		<file id="ct-login-js" rand="true" _is_tpl="true">/js/mvc/templates/default/controllers/ct.login.js</file>
+		<file id="frm-login-js" rand="true" _is_tpl="true">/js/mvc/templates/default/views/elements/forms/frm.login.js</file>
+		<file id="ct-register-js" rand="true" _is_tpl="true">/js/mvc/templates/default/controllers/ct.register.js</file>
+		<file id="frm-register-js" rand="true" _is_tpl="true">/js/mvc/templates/default/views/elements/forms/frm.register.js</file>
+		<file id="ct-forgot-pass-js" rand="true" _is_tpl="true">/js/mvc/templates/default/controllers/ct.forgot-pass.js</file>
+		<file id="frm-forgot-pass-js" rand="true" _is_tpl="true">/js/mvc/templates/default/views/elements/forms/frm.forgot-pass.js</file>
+		<file id="ct-reset-pass-js" rand="true" _is_tpl="true">/js/mvc/templates/default/controllers/ct.reset-pass.js</file>
+		<file id="frm-reset-pass-js" rand="true" _is_tpl="true">/js/mvc/templates/default/views/elements/forms/frm.reset-pass.js</file>
+	</resources>
+	
+	<!-- Globals -->
+	<block id="globals" _is_tpl="true">
+		<css type="Icons. Uncomment required icon fonts">
+			<resource>boxicons-css</resource>
+		</css>
+		<css type="Core CSS">
+			<resource>core-css</resource>
+			<resource>theme-default-css</resource>
+			<resource>demo-css</resource>
+			<resource>perfect-scrollbar-css</resource>
+			<resource>overlay-loader-css</resource>
+		</css>		
+		<js type="Core JS">
+			<resource>jquery-js</resource>
+			<resource>popper-js</resource>
+			<resource>bootstrap-js</resource>
+			<resource>perfect-scroolbar-js</resource>
+			<resource>menu-js</resource>
+		</js>
+		<js type="Main JS">
+			<resource>main-js</resource>
+			<resource>aw-js</resource>
+		</js>
+		<!--<listener type ="js">some_listener</listener>-->
+	</block>
+	
+	<!-- Login Page -->
+	<block id="login" _is_tpl="true">
+		<css type="Page CSS">
+			<resource>page-auth-css</resource>
+		</css>
+		<js type="JS Page Level">
+			<resource>frm-login-js</resource>
+			<resource>ct-login-js</resource>
+			<raw>window.onload = AW.start( 'Login' )</raw>
+		</js>
+	</block>
+	
+	<!-- Register Page -->
+	<block id="register" _is_tpl="true">
+		<css type="Page CSS">
+			<resource>page-auth-css</resource>
+		</css>
+		<js type="JS Page Level">
+			<resource>frm-register-js</resource>
+			<resource>ct-register-js</resource>
+			<raw>window.onload = AW.start( 'Register' )</raw>
+		</js>
+	</block>
+	
+	<!-- Forgot Password -->
+	<block id="forgot-password" _is_tpl="true">
+		<css type="Page CSS">
+			<resource>page-auth-css</resource>
+		</css>
+		<js type="JS Page Level">
+			<resource>frm-forgot-pass-js</resource>
+			<resource>ct-forgot-pass-js</resource>-->
+			<raw>window.onload = AW.start( 'ForgotPass' )</raw>
+		</js>
+	</block>
+	
+	<!-- Reset Password Page -->
+	<block id="reset-password" _is_tpl="true">
+		<css type="Page CSS">
+			<resource>page-auth-css</resource>
+		</css>
+		<js type="JS Page Level">
+			<resource>frm-reset-pass-js</resource>
+			<resource>ct-reset-pass-js</resource>
+			<raw>window.onload = AW.start( 'ResetPass' )</raw>
+		</js>
+	</block>
+	
+	<!-- Check Email Page -->
+	<block id="check-email" _is_tpl="true">
+		<css type="Page CSS">
+			<resource>page-auth-css</resource>
+		</css>
+	</block>
+	
+	<!-- 404 -->
+	<block id="404" _is_tpl="true">
+		<css type="Page CSS">
+			<resource>page-misc-css</resource>
+		</css>
+	</block>
+
+</package>
