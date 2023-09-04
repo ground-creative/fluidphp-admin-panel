@@ -13,4 +13,4 @@
  
  ## Setup
  
-Configure all the options in the environment file
+Configure all the options in the file env.sample and rename it to .env
