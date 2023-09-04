@@ -92,7 +92,7 @@
 	
 	<page id="privacy-policy" _is_tpl="true">
 		<views>
-			<view>templates/default/_tpl_privacy-policy</view>
+			<view>privacy-policy</view>
 		</views>
 		<resources>
 			<block>globals</block>
