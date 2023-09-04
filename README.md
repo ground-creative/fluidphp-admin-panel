@@ -13,6 +13,4 @@
  
  ## Setup
  
- - Move email templates from the user auth api helper to the view folder
- 
- - Configure all the options in the environment file
+Configure all the options in the environment file
