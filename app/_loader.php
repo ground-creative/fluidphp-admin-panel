@@ -107,6 +107,7 @@
 							'lang'					=>	\helpers\Website\Manager::getLang()
 						),
 						'AW.Api.prefix'					=>	$app[ 'url' ] . $app[ 'env' ] . '/user-auth-api/wrapper',
+						'AW.site_address'				=>	$app[ 'url' ] . $app[ 'env' ],
 						'AW.routes'	=>
 						[
 							'check-email'	=>			$app[ 'url' ] . $app[ 'env' ] . '/check-email/',
@@ -115,7 +116,7 @@
 						'AW.user_code'		=>			(($code = @\Router::getValue('code')) ? $code : '')
 					));
 				}
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.resources', 0));
 		
 			\Event::listen( 'website.load_routes_xml', function($controllerID, $xml)
 			{
@@ -132,7 +133,7 @@
 						}
 					}
 				}
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.load_routes_xml', 0));
 			
 			\Event::listen('website.load_pages_xml', function($pageID, &$xml)	
 			{
@@ -193,7 +194,7 @@
 						}
 					}	
 				}
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.load_pages_xml', 0));
 			
 			\Event::listen( 'website.load_translator_xml' , function($xml)			
 			{
@@ -208,7 +209,7 @@
 					}
 					$xml->load($file_raw);   
 				}
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.load_translator_xml', 0));
 			
 			\Event::listen('website.load_resources_xml' , function(&$xml)			
 			{
@@ -269,13 +270,13 @@
 						}
 					}
 				}
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.load_resources_xml', 0));
 			
 			Event::listen('website.compiling_view', function($page, &$object, &$views)
 			{
 				$file = ptc_path('views')  . '/templates/' . \App::options('website.template') . '/_extras.php';
 				if (file_exists($file)){ require_once($file); }
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.compiling_view', 0));
 			
 			\Event::listen('website.load_languages_xml' , function(&$xml)			
 			{
@@ -313,6 +314,6 @@
 						}	
 					}
 				}
-			}, 0);
+			}, ptc_array_get($options, 'listener_priorities.load_languages_xml', 0));
 		}
 	}
