@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?=$_elements->_header?>
+<?=$_elements->_tpl_header?>
 <body>
 	<div id="loading-overlay" style="display: none"></div>
 	<!-- Content -->
@@ -13,7 +13,7 @@
 						<div class="app-brand justify-content-center">
 							<a href="index.html" class="app-brand-link gap-2">
 								<span class="app-brand-logo demo">
-									<?=$_elements->_brand_logo?>
+									<?=$_elements->_tpl_brand_logo?>
 								</span>
 								<span class="app-brand-text demo text-body fw-bolder"><?=$_lang->val('_tpl_login_headline')?></span>
 							</a>
@@ -29,8 +29,8 @@
 							<div class="mb-3 form-password-toggle">
 								<div class="d-flex justify-content-between">
 									<label class="form-label" for="l_pass"><?=ucfirst($_lang->val('_tpl_password'))?></label>
-									<a href="<?=$_router->get('forgot_password')?>">
-										<small>Forgot Password?</small>
+									<a href="<?=$_router->get('_tpl_forgot_password')?>">
+										<small><?=$_lang->val('_tpl_forgot_password_headline')?></small>
 									</a>
 								</div>
 								<div class="input-group input-group-merge">
@@ -58,7 +58,7 @@
 						</form>
 						<p class="text-center">
 							<span><?=ucfirst($_lang->val('_tpl_login_new_platform_txt'))?></span>
-							<a href="<?=$_router->get('register')?>">
+							<a href="<?=$_router->get('_tpl_register')?>">
 								<span><?=ucfirst($_lang->val('_tpl_login_new_create_account_txt'))?></span>
 							</a>
 						</p>
@@ -72,6 +72,6 @@
 	<?=$_resources->js()?>
 	<!-- Page JS -->
 	<!-- Place this tag in your head or just before your close body tag. -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script async defer src="<?=$_data->_manual_resources->buttons_js?>"></script>
 </body>
 </html>

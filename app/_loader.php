@@ -45,15 +45,18 @@
 						\helpers\UserAuthApi\models\Users_Autologin_Tokens::setExpired($code);
 						\Auth::setCookie($cookie_name, 0, 1, '/');
 					}
-					\Router::redirect(\Router::getRoute('login'), 302);
+					\Router::redirect(\Router::getRoute('_tpl_login'), 302);
 					
-				})->map('_logout');
+				})->map('_tpl_logout');
 				
 				\Router::notFound( 404 , function()
 				{
 					$ui_language = ($lang = ptc_session_get( 'ui_language' )) ? $lang : 'english';
-					\helpers\Website\Manager::setLang($ui_language);
-					echo \helpers\Website\Manager::page('404');
+					if (!\App::storage('website.current_lang'))
+					{
+						\helpers\Website\Manager::setLang($ui_language);
+					}
+					echo \helpers\Website\Manager::page('_tpl_404');
 				} );
 				
 			} )->prefix(\App::option('app.env'));
@@ -89,7 +92,7 @@
 		
 			Event::listen('website.resources', function($page, &$resources, $type, $blockID)
 			{
-				if ('globals' !== $blockID){ return; }	// work only with the global block
+				if ('_tpl_globals' !== $blockID){ return; }	// work only with the global block
 				if ( 'js' === $type )
 				{
 					$app = \App::option( 'app' );
@@ -100,7 +103,8 @@
 							'url'						=>	\helpers\Website\Manager::getPath(),
 							'env'						=>	$app[ 'env' ] ,
 							'test_env'					=>	$app[ 'test_env' ] ,
-							'revision'					=>	\App::option( 'revision.number' )
+							'revision'					=>	\App::option( 'revision.number' ),
+							'lang'					=>	\helpers\Website\Manager::getLang()
 						),
 						'AW.Api.prefix'					=>	$app[ 'url' ] . $app[ 'env' ] . '/user-auth-api/wrapper',
 						'AW.routes'	=>

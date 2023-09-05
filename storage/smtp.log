@@ -5556,3 +5556,615 @@
 
 2023-09-03 19:29:53	1	CLIENT -> SERVER: QUIT
 
+2023-09-05 08:51:21	1	CLIENT -> SERVER: EHLO 127.0.0.1
+
+2023-09-05 08:51:21	1	CLIENT -> SERVER: STARTTLS
+
+2023-09-05 08:51:21	1	CLIENT -> SERVER: EHLO 127.0.0.1
+
+2023-09-05 08:51:22	1	CLIENT -> SERVER: AUTH LOGIN
+
+2023-09-05 08:51:22	1	CLIENT -> SERVER: [credentials hidden]
+2023-09-05 08:51:22	1	CLIENT -> SERVER: [credentials hidden]
+2023-09-05 08:51:23	1	CLIENT -> SERVER: MAIL FROM:<irony00100@gmail.com>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: RCPT TO:<irony00100@gmail.com>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: DATA
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Date: Tue, 5 Sep 2023 15:51:20 +0700
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: To: irony00100@gmail.com
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: From: Adwords Optimizer <irony00100@gmail.com>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Reply-To: Adwords Optimizer <irony00100@gmail.com>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Subject: Welcome to Adwords Optimizer
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Message-ID: <8y7s7eVdetzaCOympeFRpPZ8vgbQ1Qo75gCIzSkHY@127.0.0.1>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.1 (https://github.com/PHPMailer/PHPMailer)
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER:  boundary="b1=_8y7s7eVdetzaCOympeFRpPZ8vgbQ1Qo75gCIzSkHY"
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: --b1=_8y7s7eVdetzaCOympeFRpPZ8vgbQ1Qo75gCIzSkHY
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Content-Type: text/plain; charset=
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Â 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Hi Auto! 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Welcome to Adwords Optimizer				
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					You just need to click on the button to verify your account					
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					If you did not try to activate your account recently, you can ignore this email				 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 						Verify my account					 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				  
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Or you can copy and paste in your browser the following link:					 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 						http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/a2ebdby1wm1kkjctzxzli3ypysmkgwommnbdqge1vfa98p30ip/en_GB/
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					This email was sent to irony00100@gmail.com
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Copyright © 2023 Adwords Optimizer. All rights reserved.
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: --b1=_8y7s7eVdetzaCOympeFRpPZ8vgbQ1Qo75gCIzSkHY
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Content-Type: text/html; charset=
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: <html>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: <head>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	<title>Welcome to {_company_name}</title>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: </head>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: <body style="background-color: #FFF8F5">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	<table align="center" width="700" style="padding: 50px 50px 20px 50px">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<!--<a href="http://192.168.2.186/projects/fluidphp/admin-panel/verify.php?code=a2ebdby1wm1kkjctzxzli3ypysmkgwommnbdqge1vfa98p30ip&lang=en_GB" target="_blank">	
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				    <img src="" style="display: block; max-width:450px;" alt="Adwords Optimizer" />
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				</a>-->
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				&nbsp;
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<h4 style="color: #000938; font-size:32px; margin:20px; text-align: center; font-weight: bolder; font-family: 'Poppins', 'Arial' , 'Serif';">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Hi <span style="text-transform: capitalize;">Auto!</span> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					<br>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Welcome to Adwords Optimizer				</h4>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	</table>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	<table bgcolor="#FFFFFF" align="center" width="700" height="400" style="padding: 50px 50px 50px 50px; border-radius: 10px">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<p style="text-align: center; font-size: 15px;color: #000938; font-family:'Poppins', 'Arial' , 'Serif';" > 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					You just need to click on the button to verify your account					<br><br>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					If you did not try to activate your account recently, you can ignore this email				</p> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<a href="http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/a2ebdby1wm1kkjctzxzli3ypysmkgwommnbdqge1vfa98p30ip/en_GB/"> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					<button type="button" name="Verificar" value="Verify my account" style="background-color: #6B75FF; border-radius: 5px; color: white; padding: 8px 20px 8px 20px; font-size:16px; border: none; text-align: center; cursor: pointer; font-family: 'Poppins', 'Arial' , 'Serif';">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 						Verify my account					</button> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				</a>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<p style="line-height: 30px;text-align: center; font-size: 15px ; color:#9BABC5; font-family: 'Poppins', 'Arial' , 'Serif';">  
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Or you can copy and paste in your browser the following link:					<br> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					<a href="http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/a2ebdby1wm1kkjctzxzli3ypysmkgwommnbdqge1vfa98p30ip/en_GB/" target="_blank" style="text-align: center; text-decoration: underline; font-size: 15px ; color:#6B75FF ; a:active color:#1155CC; a:hover cursor: pointer; a:visited color:#6611CC; font-family:'Poppins', 'Arial' , 'Serif';"> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 						http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/a2ebdby1wm1kkjctzxzli3ypysmkgwommnbdqge1vfa98p30ip/en_GB/
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					</a> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				</p>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	</table>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	<table align="center" width="700" style="padding: 20px 50px 10px 50px">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<!--<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<a href="http://192.168.2.186/projects/fluidphp/admin-panel" target="_blank">	
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					<p style="text-align: center"> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 						<img width="200px" src="" alt="Adwords Optimizer" /> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					</p> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				</a>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>-->
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				<p style="font-size:13px; line-height: 20px; color: #000938; font-family: 'Poppins', 'Arial' , 'Serif';"> 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					This email was sent to irony00100@gmail.com<br>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 					Copyright © 2023 Adwords Optimizer. All rights reserved.
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 				</p>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 	</table>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: </body>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: </html>
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: --b1=_8y7s7eVdetzaCOympeFRpPZ8vgbQ1Qo75gCIzSkHY--
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: 
+
+2023-09-05 08:51:23	1	CLIENT -> SERVER: .
+
+2023-09-05 08:51:24	1	CLIENT -> SERVER: QUIT
+
+2023-09-05 09:13:20	1	CLIENT -> SERVER: EHLO 127.0.0.1
+
+2023-09-05 09:13:20	1	CLIENT -> SERVER: STARTTLS
+
+2023-09-05 09:13:20	1	CLIENT -> SERVER: EHLO 127.0.0.1
+
+2023-09-05 09:13:20	1	CLIENT -> SERVER: AUTH LOGIN
+
+2023-09-05 09:13:21	1	CLIENT -> SERVER: [credentials hidden]
+2023-09-05 09:13:21	1	CLIENT -> SERVER: [credentials hidden]
+2023-09-05 09:13:21	1	CLIENT -> SERVER: MAIL FROM:<irony00100@gmail.com>
+
+2023-09-05 09:13:21	1	CLIENT -> SERVER: RCPT TO:<irony00100@gmail.com>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: DATA
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Date: Tue, 5 Sep 2023 16:13:19 +0700
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: To: irony00100@gmail.com
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: From: Adwords Optimizer <irony00100@gmail.com>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Reply-To: Adwords Optimizer <irony00100@gmail.com>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Subject: Welcome to Adwords Optimizer
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Message-ID: <8iTXIlrEvmumFeW1NxO7EAEWiz9ZUFRg32QaJRZtI@127.0.0.1>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: X-Mailer: PHPMailer 6.8.1 (https://github.com/PHPMailer/PHPMailer)
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: MIME-Version: 1.0
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER:  boundary="b1=_8iTXIlrEvmumFeW1NxO7EAEWiz9ZUFRg32QaJRZtI"
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: --b1=_8iTXIlrEvmumFeW1NxO7EAEWiz9ZUFRg32QaJRZtI
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Content-Type: text/plain; charset=
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Â 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Hi Carlo! 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Welcome to Adwords Optimizer				
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					You just need to click on the button to verify your account					
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					If you did not try to activate your account recently, you can ignore this email				 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 						Verify my account					 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				  
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Or you can copy and paste in your browser the following link:					 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 						http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/fnxeusnd34jw96l3lj04yogv9zliqp0zed30bo1o2vveeoirv3/en_GB/
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					This email was sent to irony00100@gmail.com
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Copyright © 2023 Adwords Optimizer. All rights reserved.
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: --b1=_8iTXIlrEvmumFeW1NxO7EAEWiz9ZUFRg32QaJRZtI
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Content-Type: text/html; charset=
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: <html>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: <head>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	<title>Welcome to {_company_name}</title>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: </head>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: <body style="background-color: #FFF8F5">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	<table align="center" width="700" style="padding: 50px 50px 20px 50px">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<!--<a href="http://192.168.2.186/projects/fluidphp/admin-panel/verify.php?code=fnxeusnd34jw96l3lj04yogv9zliqp0zed30bo1o2vveeoirv3&lang=en_GB" target="_blank">	
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				    <img src="" style="display: block; max-width:450px;" alt="Adwords Optimizer" />
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				</a>-->
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				&nbsp;
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<h4 style="color: #000938; font-size:32px; margin:20px; text-align: center; font-weight: bolder; font-family: 'Poppins', 'Arial' , 'Serif';">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Hi <span style="text-transform: capitalize;">Carlo!</span> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					<br>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Welcome to Adwords Optimizer				</h4>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	</table>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	<table bgcolor="#FFFFFF" align="center" width="700" height="400" style="padding: 50px 50px 50px 50px; border-radius: 10px">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<p style="text-align: center; font-size: 15px;color: #000938; font-family:'Poppins', 'Arial' , 'Serif';" > 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					You just need to click on the button to verify your account					<br><br>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					If you did not try to activate your account recently, you can ignore this email				</p> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<a href="http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/fnxeusnd34jw96l3lj04yogv9zliqp0zed30bo1o2vveeoirv3/en_GB/"> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					<button type="button" name="Verificar" value="Verify my account" style="background-color: #6B75FF; border-radius: 5px; color: white; padding: 8px 20px 8px 20px; font-size:16px; border: none; text-align: center; cursor: pointer; font-family: 'Poppins', 'Arial' , 'Serif';">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 						Verify my account					</button> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				</a>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<p style="line-height: 30px;text-align: center; font-size: 15px ; color:#9BABC5; font-family: 'Poppins', 'Arial' , 'Serif';">  
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Or you can copy and paste in your browser the following link:					<br> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					<a href="http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/fnxeusnd34jw96l3lj04yogv9zliqp0zed30bo1o2vveeoirv3/en_GB/" target="_blank" style="text-align: center; text-decoration: underline; font-size: 15px ; color:#6B75FF ; a:active color:#1155CC; a:hover cursor: pointer; a:visited color:#6611CC; font-family:'Poppins', 'Arial' , 'Serif';"> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 						http://192.168.2.186/projects/fluidphp/admin-panel/verify-account/fnxeusnd34jw96l3lj04yogv9zliqp0zed30bo1o2vveeoirv3/en_GB/
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					</a> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				</p>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	</table>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	<table align="center" width="700" style="padding: 20px 50px 10px 50px">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<!--<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<a href="http://192.168.2.186/projects/fluidphp/admin-panel" target="_blank">	
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					<p style="text-align: center"> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 						<img width="200px" src="" alt="Adwords Optimizer" /> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					</p> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				</a>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>-->
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		<tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			<td align="center">
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				<p style="font-size:13px; line-height: 20px; color: #000938; font-family: 'Poppins', 'Arial' , 'Serif';"> 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					This email was sent to irony00100@gmail.com<br>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 					Copyright © 2023 Adwords Optimizer. All rights reserved.
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 				</p>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 			</td>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 		</tr>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 	</table>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: </body>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: </html>
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: --b1=_8iTXIlrEvmumFeW1NxO7EAEWiz9ZUFRg32QaJRZtI--
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: 
+
+2023-09-05 09:13:22	1	CLIENT -> SERVER: .
+
+2023-09-05 09:13:23	1	CLIENT -> SERVER: QUIT
+

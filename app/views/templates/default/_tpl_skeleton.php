@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<?=$_elements->_header?>
+<?=$_elements->_tpl_header?>
 <body>
 	<!-- Layout wrapper -->
 	<div class="layout-wrapper layout-content-navbar">
 		<div class="layout-container">
-			<?=$_elements->_left_menu;?>	
+			<?=$_elements->_tpl_left_menu;?>	
 			<!-- Layout container -->
 			<div class="layout-page">
-				<?=$_elements->_top_bar;?>
+				<?=$_elements->_tpl_top_bar;?>
 				<!-- Content wrapper -->
 				<div class="content-wrapper">
 					<!-- Content -->
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<!-- / Content -->
-					<?=$_elements->_footer?>
+					<?=$_elements->_tpl_footer?>
 				</div>
 				<!-- Content wrapper -->
 			</div>

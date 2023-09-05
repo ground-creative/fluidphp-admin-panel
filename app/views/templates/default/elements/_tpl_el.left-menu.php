@@ -3,7 +3,7 @@
 				<div class="app-brand demo">
 					<a href="<?=$_router->path()?>/public/templates/default/html/index.html" class="app-brand-link">
 						<span class="app-brand-logo demo">
-							<?=$_elements->_brand_logo?>
+							<?=$_elements->_tpl_brand_logo?>
 						</span>
 						<span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
 					</a>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?=$_elements->_header?>
+<?=$_elements->_tpl_header?>
 <body>
 	<div id="loading-overlay" style="display: none"></div>
 	<!-- Content -->
@@ -13,7 +13,7 @@
 						<div class="app-brand justify-content-center">
 							<a href="index.html" class="app-brand-link gap-2">
 								<span class="app-brand-logo demo">
-									<?=$_elements->_brand_logo?>
+									<?=$_elements->_tpl_brand_logo?>
 								</span>
 								<span class="app-brand-text demo text-body fw-bolder"><?=$_lang->val('_tpl_forgot_password_headline')?></span>
 							</a>
@@ -45,7 +45,7 @@
 							</div>
 						</div>
 						<div class="text-center">
-							<a href="<?=$_router->get('login')?>" class="d-flex align-items-center justify-content-center">
+							<a href="<?=$_router->get('_tpl_login')?>" class="d-flex align-items-center justify-content-center">
 								<i class="bx bx-chevron-left scaleX-n1-rtl bx-sm"></i>
 								<?=ucfirst($_lang->val('_tpl_go_to_login_txt'))?>
 							</a>
@@ -60,6 +60,6 @@
 	<?=$_resources->js()?>
 	<!-- Page JS -->
 	<!-- Place this tag in your head or just before your close body tag. -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script async defer src="<?=$_data->_manual_resources->buttons_js?>"></script>
 </body>
 </html>

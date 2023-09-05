@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?=$_elements->_header?>
+<?=$_elements->_tpl_header?>
 <body>
 	<!-- Content -->
 	<div class="container-xxl">
@@ -12,7 +12,7 @@
 						<div class="app-brand justify-content-center">
 							<a href="#" class="app-brand-link gap-2">
 								<span class="app-brand-logo demo">
-									<?=$_elements->_brand_logo?>
+									<?=$_elements->_tpl_brand_logo?>
 								</span>
 								<span class="app-brand-text demo text-body fw-bolder"><?=$_lang->val('_tpl_check_email_headline')?></span>
 							</a>
@@ -27,10 +27,10 @@
 			</div>
 		</div>
 	</div>
-    <!-- / Content -->
+	<!-- / Content -->
 	<?=$_resources->js()?>
-    <!-- Page JS -->
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+	<!-- Page JS -->
+	<!-- Place this tag in your head or just before your close body tag. -->
+	<script async defer src="<?=$_data->_manual_resources->buttons_js?>"></script>
   </body>
 </html>

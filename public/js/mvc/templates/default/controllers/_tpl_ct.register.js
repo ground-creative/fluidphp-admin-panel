@@ -7,14 +7,13 @@ AW.Controllers.Register = APP.Base.Controller.extend
 	{
 		var params = 
 		{
-			"firstname": "auto",
-			"lastname": "auto",
+			"firstname": values.firstname,
+			"lastname": values.lastname,
 			"username": values.email,
 			"email": values.email,
 			"password": values.password,
-			"lang": "en_GB",
+			"lang": AW.Config.lang,
 			"birthdate": "1980-01-01"
-
 		};
 		$("#loading-overlay").show();
 		AW.Api.post("register/", params, function(response)

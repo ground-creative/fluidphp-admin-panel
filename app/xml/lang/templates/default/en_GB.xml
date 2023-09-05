@@ -13,7 +13,12 @@
 	<translation key="_tpl_register_btn_txt">sign up</translation>
 	<translation key="_tpl_register_headline">adventure starts here</translation>
 	<translation key="_tpl_email">email</translation>
+	<translation key="_tpl_firstname">firstname</translation>
+	<translation key="_tpl_lastname">lastname</translation>
+	<translation key="_tpl_password_repeat">repeat password</translation>
 	<translation key="_tpl_email_placeholder">enter your email</translation>
+	<translation key="_tpl_firstname_placeholder">enter your firstname</translation>
+	<translation key="_tpl_lastname_placeholder">enter your lastname</translation>
 	<translation key="_tpl_password">password</translation>
 	<translation key="_tpl_privacy_block">
 		<![CDATA[

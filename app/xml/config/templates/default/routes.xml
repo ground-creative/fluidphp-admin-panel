@@ -4,53 +4,53 @@
 	<controller id="main" prefix="">
 
 		<route url="/login">
-			<page>login</page>
+			<page>_tpl_login</page>
 			<methods>get</methods>
-			<map>login</map>
+			<map>_tpl_login</map>
 		</route>
 
 		<route url="/register">
-			<page>register</page>
+			<page>_tpl_register</page>
 			<methods>get</methods>
-			<map>register</map>
+			<map>_tpl_register</map>
 		</route>
 		
 		<route url="/forgot-password">
-			<page>forgot-password</page>
+			<page>_tpl_forgot-password</page>
 			<methods>get</methods>
-			<map>forgot_password</map>
+			<map>_tpl_forgot_password</map>
 		</route>
 		
 		<route url="/check-email">
-			<page>check-email</page>
+			<page>_tpl_check-email</page>
 			<methods>get</methods>
-			<map>check_email</map>
+			<map>_tpl_check_email</map>
 		</route>
 		
 		<route url="/verify-account/{code}/{lang?}/">
-			<page>verify-account</page>
+			<page>_tpl_verify-account</page>
 			<methods>get</methods>
-			<map>verify_account</map>
+			<map>_tpl_verify_account</map>
 		</route>
 		
 		<route url="/reset-password/{code}/{lang?}/">
-			<page>reset-password</page>
+			<page>_tpl_reset-password</page>
 			<methods>get</methods>
-			<map>reset_password</map>
+			<map>_tpl_reset_password</map>
 		</route>
 		
 		<route url="/privacy-policy/">
-			<page>privacy-policy</page>
+			<page>_tpl_privacy-policy</page>
 			<methods>get</methods>
-			<map>privacy_policy</map>
+			<map>_tpl_privacy_policy</map>
 		</route>
 		
 		<filter before="_user-auth-api.check_login">
 		
 			<route url="/">
-				<page>index</page>
+				<page>_tpl_index</page>
 				<methods>get</methods>
-				<map>index</map>
+				<map>_tpl_index</map>
 			</route>
 		
 		</filter>

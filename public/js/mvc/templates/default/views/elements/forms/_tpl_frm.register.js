@@ -7,6 +7,18 @@ AW.Forms.Register = APP.Base.Form.extend
 	[
 		{
 			xtype: 'textfield' ,
+			id: 'reg_firstname' , 
+			name: 'firstname' ,
+			validator: 'required'
+		} ,
+		{
+			xtype: 'textfield' ,
+			id: 'reg_lastname' , 
+			name: 'lastname' ,
+			validator: 'required'
+		} ,
+		{
+			xtype: 'textfield' ,
 			type: 'email',
 			id: 'reg_email' , 
 			name: 'email' ,
@@ -22,6 +34,16 @@ AW.Forms.Register = APP.Base.Form.extend
 				{ rule: 'required' } ,
 				{ rule: 'max' , max: 20 } ,
 				{ rule: 'min' , min: 6 }
+			]
+		} ,
+		{
+			id: 'reg_pass_again' , 
+			name: 'password_again' ,
+			xtype: 'textfield' ,
+			type: 'password' ,
+			validator: 
+			[
+				{rule: 'equalTo', equalTo: 'password'}
 			]
 		} ,
 		{
