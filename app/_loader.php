@@ -27,13 +27,13 @@
 			$options['language_files_path'] = str_replace('${template}', $options['template'], $options['language_files_path']);
 			\helpers\Website\Manager::_load($options);
 			static::_addListeners($options);
-			static::_addRoutes();
+			static::_addRoutes($options);
 			return $options;
 		}
 		
-		protected static function _addRoutes()
+		protected static function _addRoutes($options)
 		{
-			\Router::group( '_loader', function( )
+			\Router::group( '_loader', function() use ($options)
 			{
 				\Router::get( '/_logout/', function( )
 				{
