@@ -4,16 +4,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
 	<title><?=ucwords($_lang->val($_router->page() . '_page_title'))?></title>
 	<meta name="description" content="" />
-	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="<?=$_data->_manual_resources->icon?>" />
-	<!-- Fonts -->
-	<link rel="preconnect" href="<?=$_data->_manual_resources->fonts_googleapis?>" />
-	<link rel="preconnect" href="<?=$_data->_manual_resources->fonts_gstatic?>" crossorigin />
-	<link href="<?=$_data->_manual_resources->fonts_googleapis_2?>" rel="stylesheet"/>
-	<?=$_resources->css()?>
-	<!-- Helpers -->
-	<script src="<?=$_data->_manual_resources->helpers_js?>"></script>
+	<?=$_resources->links()?>
+	<?=$_resources->raw('_tpl_helpers-js', 'js', 'Helpers')?>
 	<!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
 	<!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-	<script src="<?=$_data->_manual_resources->config_js?>"></script>
+	<?=$_resources->raw('_tpl_config-js', 'js')?>
 </head>

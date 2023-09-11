@@ -49,7 +49,7 @@
 					
 				})->map('_tpl_logout');
 				
-				\Router::notFound( 404 , function()
+				\Router::notFound(404, function()
 				{
 					$ui_language = ($lang = ptc_session_get( 'ui_language' )) ? $lang : 'english';
 					if (!\App::storage('website.current_lang'))
@@ -57,7 +57,7 @@
 						\helpers\Website\Manager::setLang($ui_language);
 					}
 					echo \helpers\Website\Manager::page('_tpl_404');
-				} );
+				}, ptc_array_get($options, 'listener_priorities.not_found', 0));
 				
 			} )->prefix(\App::option('app.env'));
 		}
@@ -118,22 +118,42 @@
 				}
 			}, ptc_array_get($options, 'listener_priorities.resources', 0));
 		
-			\Event::listen( 'website.load_routes_xml', function($controllerID, $xml)
+			\Event::listen( 'website.load_routes_xml', function($controllerID, &$xml)
 			{
 				if (file_exists(ptc_path('xml') . '/config/routes.xml'))
 				{
-					$xml = simplexml_load_file(ptc_path('xml') . '/config/routes.xml');
-					foreach ($xml->controller as $controller)
+					$xml2 = simplexml_load_file(ptc_path('xml') . '/config/routes.xml');
+					foreach ($xml2->controller as $controller)
 					{
 						if ($controllerID === (string)$controller->attributes()->id)
 						{
-							$routes = new \helpers\Website\Routes($controllerID, $xml);
+							foreach ($controller->route as $route)
+							{
+								for($i = 0; $i < sizeof($xml->controller->route); $i++)
+								{
+									if ((string)$xml->controller->route[$i]->map == (string)$route->map)
+									{
+										unset($xml->controller->route[$i]);
+										break;
+									}
+								}
+							}
+							$routes = new \helpers\Website\Routes($controllerID, $xml2);
 							$routes->compile();
 							break;
 						}
 					}
 				}
 			}, ptc_array_get($options, 'listener_priorities.load_routes_xml', 0));
+			
+			
+			\Event::listen( 'website.load_js_language_file', function($lang, &$file_path)
+			{
+				if (file_exists(ptc_path('xml') . '/lang/' . $lang . '.js'))
+				{
+					$file_path = ptc_path('xml') . '/lang/' . $lang . '.js';
+				}
+			}, ptc_array_get($options, 'listener_priorities.load_js_language_file', 0));
 			
 			\Event::listen('website.load_pages_xml', function($pageID, &$xml)	
 			{
@@ -276,6 +296,7 @@
 			{
 				$file = ptc_path('views')  . '/templates/' . \App::options('website.template') . '/_extras.php';
 				if (file_exists($file)){ require_once($file); }
+				
 			}, ptc_array_get($options, 'listener_priorities.compiling_view', 0));
 			
 			\Event::listen('website.load_languages_xml' , function(&$xml)			

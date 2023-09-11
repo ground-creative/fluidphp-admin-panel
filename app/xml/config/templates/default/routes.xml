@@ -44,16 +44,12 @@
 			<methods>get</methods>
 			<map>_tpl_privacy_policy</map>
 		</route>
-		
-		<filter before="_user-auth-api.check_login">
-		
-			<route url="/">
-				<page>_tpl_index</page>
-				<methods>get</methods>
-				<map>_tpl_index</map>
-			</route>
-		
-		</filter>
+			
+		<route url="/" before="_user-auth-api.check_login">
+			<page>_tpl_index</page>
+			<methods>get</methods>
+			<map>_tpl_index</map>
+		</route>
 	
 	</controller>
 

@@ -3,6 +3,8 @@
 
 	<!-- Resources -->
 	<resources>
+		<!-- Favicon Icon -->
+		<file id="_tpl_favicon-ico" rel="icon" type="image/x-icon" _is_tpl="true">/templates/default/assets/img/favicon/favicon.ico</file>
 		<!-- CSS -->
 		<file id="_tpl_boxicons-css" _is_tpl="true">/templates/default/assets/vendor/fonts/boxicons.css</file>
 		<file id="_tpl_core-css" _is_tpl="true">/templates/default/assets/vendor/css/core.css</file>	
@@ -13,6 +15,9 @@
 		<file id="_tpl_overlay-loader-css" _is_tpl="true">/css/overlay-loader.css</file>
 		<file id="_tpl_apex-charts-css" _is_tpl="true">/templates/default/assets/vendor/libs/apex-charts/apex-charts.css</file>
 		<file id="_tpl_page-misc-css" _is_tpl="true">/templates/default/assets/vendor/css/pages/page-misc.css</file>
+		<file id="_tpl_google-fonts-api" rel="preconnect" external="true" _is_tpl="true">https://fonts.googleapis.com</file>
+		<file id="_tpl_google-gstatic" rel="preconnect" external="true" _is_tpl="true">https://fonts.gstatic.com</file>
+		<file id="_tpl_google-gstatic-call" rel="preconnect" external="true" _is_tpl="true">https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap</file>
 		<!-- JS -->
 		<file id="_tpl_jquery-js" _is_tpl="true">/templates/default/assets/vendor/libs/jquery/jquery.js</file>
 		<file id="_tpl_popper-js" _is_tpl="true">/templates/default/assets/vendor/libs/popper/popper.js"</file>
@@ -21,7 +26,9 @@
 		<file id="_tpl_menu-js" _is_tpl="true">/templates/default/assets/vendor/js/menu.js</file>	
 		<file id="_tpl_main-js" _is_tpl="true">/templates/default/assets/js/main.js</file>	
 		<file id="_tpl_apex-charts-js" _is_tpl="true">/templates/default/assets/vendor/libs/apex-charts/apexcharts.js</file>	
-		<file id="_tpl_dashboards-analytics-js" _is_tpl="true">/templates/default/assets/js/dashboards-analytics.js</file>	
+		<file id="_tpl_helpers-js" _is_tpl="true">/templates/default/assets/vendor/js/helpers.js</file>	
+		<file id="_tpl_config-js" _is_tpl="true">/templates/default/assets/js/config.js</file>	
+		<!--<file id="_tpl_buttons-js" external="true" _is_tpl="true">https://buttons.github.io/buttons.js</file>-->
 		<!-- MVC -->
 		<file id="_tpl_aw-js" rand="true" _is_tpl="true">/js/mvc/aw.js</file>
 		<file id="_tpl_ct-login-js" rand="true" _is_tpl="true">/js/mvc/templates/default/controllers/_tpl_ct.login.js</file>
@@ -36,16 +43,24 @@
 	
 	<!-- Globals -->
 	<block id="_tpl_globals" _is_tpl="true">
-		<css type="Icons. Uncomment required icon fonts">
+		<link type="Favicon">
+			<resource>_tpl_favicon-ico</resource>
+		</link>
+		<link type="Fonts">
+			<resource>_tpl_google-fonts-api</resource>
+			<resource>_tpl_google-gstatic</resource>
+			<resource>_tpl_google-gstatic-call</resource>
+		</link>
+		<link type="Icons. Uncomment required icon fonts">
 			<resource>_tpl_boxicons-css</resource>
-		</css>
-		<css type="Core CSS">
+		</link>
+		<link type="Core CSS">
 			<resource>_tpl_core-css</resource>
 			<resource>_tpl_theme-default-css</resource>
 			<resource>_tpl_demo-css</resource>
 			<resource>_tpl_perfect-scrollbar-css</resource>
 			<resource>_tpl_overlay-loader-css</resource>
-		</css>		
+		</link>		
 		<js type="Core JS">
 			<resource>_tpl_jquery-js</resource>
 			<resource>_tpl_popper-js</resource>
@@ -61,9 +76,9 @@
 	
 	<!-- Login Page -->
 	<block id="_tpl_login" _is_tpl="true">
-		<css type="Page CSS">
+		<link type="Page CSS">
 			<resource>_tpl_page-auth-css</resource>
-		</css>
+		</link>
 		<js type="JS Page Level">
 			<resource>_tpl_frm-login-js</resource>
 			<resource>_tpl_ct-login-js</resource>
@@ -73,9 +88,9 @@
 	
 	<!-- Register Page -->
 	<block id="_tpl_register" _is_tpl="true">
-		<css type="Page CSS">
+		<link type="Page CSS">
 			<resource>_tpl_page-auth-css</resource>
-		</css>
+		</link>
 		<js type="JS Page Level">
 			<resource>_tpl_frm-register-js</resource>
 			<resource>_tpl_ct-register-js</resource>
@@ -85,9 +100,9 @@
 	
 	<!-- Forgot Password -->
 	<block id="_tpl_forgot-password" _is_tpl="true">
-		<css type="Page CSS">
+		<link type="Page CSS">
 			<resource>_tpl_page-auth-css</resource>
-		</css>
+		</link>
 		<js type="JS Page Level">
 			<resource>_tpl_frm-forgot-pass-js</resource>
 			<resource>_tpl_ct-forgot-pass-js</resource>-->
@@ -97,9 +112,9 @@
 	
 	<!-- Reset Password Page -->
 	<block id="_tpl_reset-password" _is_tpl="true">
-		<css type="Page CSS">
+		<link type="Page CSS">
 			<resource>_tpl_page-auth-css</resource>
-		</css>
+		</link>
 		<js type="JS Page Level">
 			<resource>_tpl_frm-reset-pass-js</resource>
 			<resource>_tpl_ct-reset-pass-js</resource>
@@ -109,16 +124,16 @@
 	
 	<!-- Check Email Page -->
 	<block id="_tpl_check-email" _is_tpl="true">
-		<css type="Page CSS">
+		<link type="Page CSS">
 			<resource>_tpl_page-auth-css</resource>
-		</css>
+		</link>
 	</block>
 	
 	<!-- 404 -->
 	<block id="_tpl_404" _is_tpl="true">
-		<css type="Page CSS">
+		<link type="Page CSS">
 			<resource>_tpl_page-misc-css</resource>
-		</css>
+		</link>
 	</block>
 
 </package>
