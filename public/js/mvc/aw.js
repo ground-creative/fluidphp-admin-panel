@@ -66,7 +66,6 @@ var AW = APP.extend
 					AW.Api.responseErrMsg(response);
 				}
 			}
-			params.site_uri = location.pathname.substring(1);
 			$.ajax
 			({
 				url: ((null !== uri.match('http')) ? uri.slice(1) : this.prefix + uri),
@@ -86,62 +85,15 @@ var AW = APP.extend
 		responseErrMsg: function(response,timeout) 
 		{
 			$("#loading-overlay").hide();
+			var messageModal = new bootstrap.Modal(document.getElementById('messageModal'));
+			$('#messageModalTxt').html(AW.Lang.errors[AW.Actions.errors[500]]);
+			$('#messageModalTxt').removeClass('alert-success');
+			$('#messageModalTxt').addClass('alert-danger');
+			messageModal.show();
 			AW.log('api call error');
 			AW.log(response);
-		},/*,
-		responseErrMsg: function(response,timeout) 
-		{
-			if (typeof(timeout) === 'undefined') 
-			{
-				timeout = 3000;
-			}
-			switch (response.result.code) 
-			{
-				case 106:
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.ucfirst(AW.Config.icon_warning_msg + AW.Lang.user_not_found) + '</div>';
-				break;
-				case 515:
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.ucfirst(AW.Config.icon_warning_msg + AW.Lang.newsletter_registered_err) + '</div>';
-				break;
-				case 811:
-					var str = response.result.message;
-					var limit_date = str.substring(str.indexOf('{') + 1, str.indexOf('}'));
-					var text = AW.ucfirst(AW.Lang.service_closed.replace('_LIMIT_DATE_', limit_date));
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.Config.icon_danger_msg + text + '</div>';
-				break;
-				case 812:
-					var msg = '<div class="alert alert-info" role="alert">' + AW.Config.icon_warning_msg + AW.ucfirst(AW.Lang.guestlist_already_registered) + '</div>';
-				break;
-				case 916:
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.ucfirst(AW.Config.icon_warning_msg + AW.Lang.not_enough_points) + '</div>';
-				break;
-				case 104:
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.ucfirst(AW.Config.icon_warning_msg + AW.Lang.already_verified) + '</div>';
-				break;
-				case 819:	// max sale purchase
-					var msg = '<div class="alert alert-info" role="alert">' + AW.ucfirst( AW.Config.icon_warning_msg + AW.Lang.maximum_amount_msg ) + '</div>';
-				break;
-				case 999:
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.ucfirst(AW.Config.icon_warning_msg + AW.Lang.network_error) + '</div>';
-				break;
-				case 804:
-					if ( AW.User.has_autologin_cookie )
-					{
-						AW.renewLoginToken( AW.Api.current_uri , AW.Api.current_method, AW.Api.current_params, 
-									AW.Api.current_successCallback, AW.Api.current_errorCallback, timeout );
-					}
-					else
-					{
-						AW.showSessionExpiredPopup( );
-					}
-					return false;
-				break;
-				default:
-					var msg = '<div class="alert alert-danger" role="alert">' + AW.Config.icon_danger_msg + AW.ucfirst(AW.Lang.general_error) + '</div>';
-			}
-			AW.openAlertModal(msg, timeout);
-		}*/
-	}/*,
+		}
+	},
 	openAlertModal: function(msg, timeout) 
 	{
 		if (typeof(timeout) === 'undefined') 
@@ -165,76 +117,5 @@ var AW = APP.extend
 			return sting;
 		}
 		return string.charAt(0).toUpperCase() + string.slice(1);
-	},
-	controlSpinner: function(loaderID, action) 
-	{
-		action = (action === undefined || action === null) ? 'show' : action;
-		if ('show' === action) 
-		{
-			$('#' + loaderID).removeClass("fa-angle-double-right").addClass("fa-spinner fa-spin");
-		} 
-		else 
-		{
-			$('#' + loaderID).removeClass("fa-spinner fa-spin").addClass("fa-angle-double-right");
-		}
-	},
-	mergeObjects: function(obj, src) 
-	{
-		for (var key in src) 
-		{
-			if (src.hasOwnProperty(key)) 
-			{
-				obj[key] = src[key];
-			}
-		}
-		return obj;
-	} ,
-	showSessionExpiredPopup( )
-	{
-		var timeleft = 5;
-		var downloadTimer = setInterval( function( )
-		{
-			$( "#countdown" ).html( timeleft );
-			timeleft -= 1;
-			if ( timeleft <= 0 )
-			{
-				clearInterval( downloadTimer );
-				AW.Api.post( AW.Api.url[ 'post_logout' ] , null , function( response )
-				{
-					$( '#expiredTokenModal' ).modal( 'hide' );
-					AW.getView( 'Skeleton' ).getItem( 'loginModal' ).show( );
-				} );
-			}
-		} , 1000 );
-		$( '#expiredTokenModal' ).modal( { backdrop: 'static' , keyboard: false , show: true } );
-	} ,
-	renewLoginToken: function( uri , method , params , successCallback , errorCallback , timeout )
-	{
-		$.ajax
-		( {
-			url: AW.Api.prefix + '/user/new-token/' ,
-			type: 'POST' ,
-			//data: params ,
-			dataType: 'json' ,
-			timeout: 30000 ,
-			async: false ,
-			headers: { 'X-Requested-With' : 'XMLHttpRequest' } ,
-			success: function( response )
-			{ 
-				if ( response.result.success )
-				{
-					AW.User.token_expiry = response.result.data.token_validity;
-					if ( uri !== undefined && uri !== null )
-					{
-						AW.Api._call( uri , method , params , successCallback , errorCallback , timeout );
-					}
-				
-				}
-				else
-				{
-					AW.showSessionExpiredPopup( );
-				}
-			}
-		} );
-	}*/
+	}
 });
