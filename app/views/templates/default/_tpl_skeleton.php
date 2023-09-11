@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?=$_elements->_tpl_header?>
 <body>
+	<div id="loading-overlay" style="display: none"></div>
 	<!-- Layout wrapper -->
 	<div class="layout-wrapper layout-content-navbar">
 		<div class="layout-container">
